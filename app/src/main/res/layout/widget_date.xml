@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/glass_default_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextClock
+            android:id="@+id/month"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:format12Hour="MMMM"
+            android:format24Hour="MMMM"
+            android:gravity="center|bottom"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeMaxTextSize="16sp"
+            android:autoSizeTextType="uniform" android:autoSizeStepGranularity="1sp" android:maxLines="1" android:includeFontPadding="false"
+            android:shadowColor="#55000000" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="6" />
+
+        <TextClock
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:fontFamily="sans-serif-light"
+            android:format12Hour="d"
+            android:format24Hour="d"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeMaxTextSize="80sp"
+            android:autoSizeTextType="uniform" android:autoSizeStepGranularity="1sp" android:maxLines="1" android:includeFontPadding="false"
+            android:shadowColor="#55000000" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="6" />
+
+        <TextClock
+            android:id="@+id/weekday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:format12Hour="EEEE"
+            android:format24Hour="EEEE"
+            android:gravity="center|top"
+            android:textColor="#FFFFFF"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeMaxTextSize="16sp"
+            android:autoSizeTextType="uniform" android:autoSizeStepGranularity="1sp" android:maxLines="1" android:includeFontPadding="false"
+            android:shadowColor="#55000000" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="6" />
+    </LinearLayout>
+</FrameLayout>

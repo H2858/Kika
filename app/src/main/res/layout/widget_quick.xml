@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/glass_default_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/qs1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/qs_btn_bg"
+            android:contentDescription="Wi-Fi"
+            android:gravity="center"
+            android:text="📶"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/qs2"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/qs_btn_bg"
+            android:contentDescription="Bluetooth"
+            android:gravity="center"
+            android:text="🔷"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/qs3"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/qs_btn_bg"
+            android:contentDescription="Display"
+            android:gravity="center"
+            android:text="☀️"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/qs4"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/qs_btn_bg"
+            android:contentDescription="Sound"
+            android:gravity="center"
+            android:text="🔔"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/qs5"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/qs_btn_bg"
+            android:contentDescription="Settings"
+            android:gravity="center"
+            android:text="⚙️"
+            android:textSize="22sp" />
+    </LinearLayout>
+</FrameLayout>

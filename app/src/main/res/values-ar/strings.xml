@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ويدجتات زجاجية</string>
+    <string name="w_clock">ساعة زجاجية</string>
+    <string name="w_date">تقويم زجاجي</string>
+    <string name="w_battery">بطارية زجاجية</string>
+    <string name="w_quick">إعدادات سريعة زجاجية</string>
+    <string name="w_quote">اقتباس وملاحظات زجاجية</string>
+    <string name="desc_clock">ساعة زجاجية مع التاريخ، تدعم نظام 12 و24 ساعة.</string>
+    <string name="desc_date">بطاقة تقويم زجاجية تعرض اليوم والشهر واسم اليوم.</string>
+    <string name="desc_battery">حلقة بطارية زجاجية مع حالة الشحن.</string>
+    <string name="desc_quick">اختصارات للواي فاي والبلوتوث والشاشة والصوت والإعدادات.</string>
+    <string name="desc_quote">اقتباس يومي أو ملاحظتك الخاصة.</string>
+    <string name="main_title">ويدجتات زجاجية</string>
+    <string name="main_sub">ويدجتات زجاجية أنيقة. بدون إعلانات، ولا حاجة لتطبيقات إضافية، وقابلة للتخصيص بالكامل.</string>
+    <string name="add_widget">إضافة</string>
+    <string name="pin_unsupported">لا يدعم الـ launcher لديك الإضافة من هنا. اضغط مطولاً على الشاشة الرئيسية ثم اختر الأدوات.</string>
+    <string name="main_tip">نصيحة: اضغط مطولاً على الويدجت في الشاشة الرئيسية ثم اختر إعادة الضبط لتغيير مظهره في أي وقت.</string>
+    <string name="customize">تخصيص</string>
+    <string name="glass_color">لون الزجاج</string>
+    <string name="text_color">لون النص</string>
+    <string name="opacity">الشفافية</string>
+    <string name="corner_radius">استدارة الحواف</string>
+    <string name="border">حدود زجاجية</string>
+    <string name="hour_format">نظام الوقت</string>
+    <string name="fmt_system">النظام</string>
+    <string name="fmt_12">12 ساعة</string>
+    <string name="fmt_24">24 ساعة</string>
+    <string name="custom_text">نصك الخاص (اتركه فارغاً لعرض اقتباس يومي)</string>
+    <string name="save">حفظ</string>
+    <string name="white">أبيض</string>
+    <string name="black">أسود</string>
+    <string name="battery_label">البطارية</string>
+    <string name="charging">قيد الشحن</string>
+    <string name="discharging">على البطارية</string>
+    <string-array name="quotes">
+        <item>رحلة الألف ميل تبدأ بخطوة.</item>
+        <item>من جد وجد ومن زرع حصد.</item>
+        <item>الصبر مفتاح الفرج.</item>
+        <item>خير الكلام ما قل ودل.</item>
+        <item>العلم نور والجهل ظلام.</item>
+        <item>الوقت كالسيف إن لم تقطعه قطعك.</item>
+        <item>لا تؤجل عمل اليوم إلى الغد.</item>
+        <item>ما ضاع حق وراءه مطالب.</item>
+    </string-array>
+</resources>

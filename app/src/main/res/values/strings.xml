@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glassly Widgets</string>
+    <string name="w_clock">Glass Clock</string>
+    <string name="w_date">Glass Calendar</string>
+    <string name="w_battery">Glass Battery</string>
+    <string name="w_quick">Glass Quick Settings</string>
+    <string name="w_quote">Glass Quote and Notes</string>
+    <string name="desc_clock">A glass clock with date. Supports 12h and 24h.</string>
+    <string name="desc_date">A glass calendar tile with day, month and weekday.</string>
+    <string name="desc_battery">A glass battery ring with charging status.</string>
+    <string name="desc_quick">Shortcuts to Wi-Fi, Bluetooth, display, sound and settings.</string>
+    <string name="desc_quote">A daily quote, or your own note.</string>
+    <string name="main_title">Glass Widgets</string>
+    <string name="main_sub">Beautiful glass widgets. No ads, no extra apps, fully customizable.</string>
+    <string name="add_widget">Add</string>
+    <string name="pin_unsupported">Your launcher does not support adding widgets from here. Long-press the home screen and choose Widgets.</string>
+    <string name="main_tip">Tip: long-press a widget on your home screen and choose Reconfigure to change its look anytime.</string>
+    <string name="customize">Customize</string>
+    <string name="glass_color">Glass color</string>
+    <string name="text_color">Text color</string>
+    <string name="opacity">Opacity</string>
+    <string name="corner_radius">Corner radius</string>
+    <string name="border">Glass border</string>
+    <string name="hour_format">Time format</string>
+    <string name="fmt_system">System</string>
+    <string name="fmt_12">12h</string>
+    <string name="fmt_24">24h</string>
+    <string name="custom_text">Your text (leave empty for daily quote)</string>
+    <string name="save">Save</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="battery_label">Battery</string>
+    <string name="charging">Charging</string>
+    <string name="discharging">On battery</string>
+    <string-array name="quotes">
+        <item>A journey of a thousand miles begins with a single step.</item>
+        <item>Well begun is half done.</item>
+        <item>Fortune favors the bold.</item>
+        <item>Slow and steady wins the race.</item>
+        <item>Where there is a will, there is a way.</item>
+        <item>Actions speak louder than words.</item>
+        <item>Better late than never.</item>
+        <item>Practice makes perfect.</item>
+    </string-array>
+</resources>
